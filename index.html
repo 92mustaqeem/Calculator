@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="script.js">
+</head>
+<body>
+
+    <table id="calcu">
+        <tr>
+            <th colspan="4">
+                <input type="text" id="result" placeholder="0">
+            </th>
+        <tr>
+  
+        <tr>
+            <td><button onclick="val('1')">1</button></td>
+            <td><button onclick="val('2')">2</button></td>
+            <td><button onclick="val('3')">3</button></td>
+            <td class="operators"><button class="operators" onclick="val('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="val('4')">4</button></td>
+            <td><button onclick="val('5')">5</button></td>
+            <td><button onclick="val('6')">6</button></td>
+            <td class="operators"><button class="operators" onclick="val('*')">x</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="val('7')">7</button></td>
+            <td><button onclick="val('8')">8</button></td>
+            <td><button onclick="val('9')">9</button></td>
+            <td class="operators"><button class="operators" onclick="val('-')">-</button></td>
+        </tr>
+        <tr>
+        	<td><button onclick="clr('')">C</button></td>
+            <td><button onclick="val('0')">0</button></td>
+        	<td><button onclick="clrE('')">CE</button></td>
+            <td class="operators"><button class="operators"onclick="val('+')">+</button></td>
+        </tr>
+        <tr>
+        	<td colspan="3" class="operators"><button class="operators" onclick="sol('')">=</button></td>
+        	<td class="operators"><button class="operators" onclick="val('.')">.</button></td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html> 
+</body>
+</html>
